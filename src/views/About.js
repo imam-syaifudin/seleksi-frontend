@@ -8,16 +8,16 @@ function About(props) {
           <title>Halaman About</title>
         </Helmet>
 
-        <section className="main" style={{ marginTop: '120px'}} id="main">
+        <section className="main"  id="main">
           <div className="container text-center">
             <div className="row justify-content-center">
-              <div className="col-lg-5">
+              <div className="col-lg-5 d-flex justify-content-center align-items-center vh-100  text-center">
                 <img
                   src="https://imam-syaifudin.github.io/udinhero.jpg"
                   className="rounded-circle hero text-center wow fadeInLeft"
                   alt="Main Hero"
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                 />
               </div>
               <div className="col-lg-6 d-flex align-items-center mt-3">
